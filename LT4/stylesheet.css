@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  height: 50%;
+}
+
+
+}
+.cover {
+    
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+#quote p{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center
+}
+#quote p1{
+font-family: 'Beau Rivage', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Reggae One', cursive;
+font-size: 35px;
+color: #99FFFF;
+text-shadow: 2px 2px black;
+text-align: center
+}
+#quote p2{
+font-family: 'Beau Rivage', cursive;
+font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center
+}
