@@ -1,0 +1,299 @@
+#wrapper{
+    width: 1280px;
+    height: 1100px;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    align-content: center;
+}   
+
+#wrapper-about{
+    width: 1280px;
+    height: 1100px;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #FFFEF9;
+}   
+
+body{
+    background-color: #FFFEF9;
+}
+
+#bg_gallery{
+    background-color: solid black;
+}
+
+#navigation ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+#navigation li{
+    display: inline-block;
+}
+
+#navigation a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: #385B32;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6s ease;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#navigation ul li a:hover{
+    background-color: #385B32;
+    color: #fff;
+}
+
+#navigation ul li.active a{
+    background-color: #385B32;
+    color: #fff;
+}
+
+#logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+#title{
+    border: 1px solid transparent;
+    width: 900px;
+    height: 500px;
+    align-content: center;
+    margin: 0 auto; 
+    margin-top: 180px;
+}
+
+#title h1{
+    align-content: center;
+    margin-left: 63px;
+    margin-top: 200px;
+    color: #fff;
+    font-size: 55px;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+#title h2{
+    margin-top: -45px;
+    margin-left: 65px;
+    color: #fff;
+    font-size: 35px;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+#content{
+    margin: 0 auto;
+    margin-top: 50px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+#action_title{
+    border: 1px solid transparent;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    bottom: 11%;
+    margin: 0 auto; 
+    margin-top: 180px;
+}
+
+#action_title h1{
+    position: absolute;
+    top: -34%;
+    color: #385B32;
+    font-size: 55px;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+#action_title h2{
+    position: absolute;
+    top: -20%;
+    color: #385B32;
+    font-size: 35px;
+    font-style: initial;
+    font-family: sans-serif;
+}
+
+#action_content{
+    position: absolute;
+    left: 66%;
+    top: 32%;
+    margin-right: 100px;
+    align-content: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#action_content2{
+    position: absolute;
+    font-size: 17px;
+    top: 91%;
+    margin-right: 100px;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+#gallery_title h2{
+    color: #385B32;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+#img-gal1{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#img-gal2{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 25%;
+    left: 35.5%;
+}
+
+#img-gal3{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 70%;
+    left: 66%;
+}
+
+#img-gal4{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#img-gal5{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 70%;
+    left: 35.5%;
+}
+
+#img-gal6{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 25%;
+    left: 66%;
+}
+
+#footer p{
+    align-content: center;
+    position: absolute;
+    left: 43%;
+    font-size: 12px;
+}
+
+#afooter p{
+    align-content: center;
+    position: absolute;
+    left: 43%;
+    top: 118%;
+    font-size: 12px;
+}
+
+#gfooter p{
+    align-content: center;
+    position: absolute;
+    left: 43%;
+    top: 118%;
+    font-size: 12px;
+    color: #fff;
+}
+
+#bfooter p{
+    align-content: center;
+    position: absolute;
+    left: 23%;
+    top: 205%;
+    font-size: 12px;
+}
+
+#aboutus_title h2{
+    color: #385B32;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+#aboutus_title h3{
+    color: #385B32;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+    left: 53%;
+    top: 14.5%;
+}
+
+#about-us{
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+
+#nav{
+    color: #385B32;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    left: 38.5%;
+    bottom: -15%;
+    text-align:justify;
+}
+
+#advocacy{
+    color: #385B32;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    left: 38.5%;
+    bottom: 12%;
+    text-align:justify;
+}
